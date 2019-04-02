@@ -12,7 +12,7 @@ As new lessons are written I will link them up here in the readme so we can keep
 
 - Introduction: What is node? - [lesson](Introduction.md)
 - Getting Started
-  - Getting Started Lesson
+  - Getting Started Lesson [lesson](Getting-Started.md)
   - Getting Started Project
 - Express
   - Express Introduction
