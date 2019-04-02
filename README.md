@@ -6,6 +6,8 @@ The outline will almost definitely change and morph as I write the lessons and f
 
 As new lessons are written I will link them up here in the readme so we can keep track of what's being worked on and what is complete.
 
+[Lesson Template here](lesson-template.md)
+
 ## The Outline
 
 - Introduction: What is node? - [lesson](Introduction.md)
