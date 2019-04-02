@@ -8,7 +8,7 @@ As new lessons are written I will link them up here in the readme so we can keep
 
 ## The Outline
 
-- Introduction: What is node?
+- Introduction: What is node? - [lesson](Introduction.md)
 - Getting Started
   - Getting Started Lesson
   - Getting Started Project
