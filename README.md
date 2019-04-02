@@ -12,8 +12,8 @@ As new lessons are written I will link them up here in the readme so we can keep
 
 - Introduction: What is node? - [lesson](Introduction.md)
 - Getting Started
-  - Getting Started Lesson [lesson](Getting-Started.md)
-  - Getting Started Project
+  - Getting Started Lesson - [lesson](Getting-Started.md)
+  - Getting Started Project - [lesson](Getting-Started-Project.md)
 - Express
   - Express Introduction
   - Express Tutorial (may end up being multiple lessons)
