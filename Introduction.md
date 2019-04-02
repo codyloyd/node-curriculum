@@ -5,6 +5,7 @@ You have no doubt noticed the popularity of Node.js.  There are many courses and
 So what is it?  The [Node.js website](https://nodejs.org/en/about/) declares:
 
 "As an asyncronous event driven JavaScript runtime, Node is designed to build scalable network applications."
+
 This is a definition that requires a little unpacking.  
 
 The important bit to understand right up front is that Node is a "JavaScript runtime".  When JavaScript was first invented, and for most of it's life (until the creation of Node) it has been a language that runs *in the browser*.  Node is a runtime that allows the user to run javascript code outside of the browser, on a command-line or in a server.  This allows developers to use JavaScript for pretty much anything that other popular server-side languages such as Ruby, PHP, C# and Python can do. So, at it's most basic, Node simply allows you to run JavaScript code on a machine such as your local computer or a server without having to go through a web-browser.
