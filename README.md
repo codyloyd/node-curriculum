@@ -17,9 +17,15 @@ As new lessons are written I will link them up here in the readme so we can keep
 - Express
   - Express Introduction [lesson](Express-Introduction.md)
   - Express Tutorial (may end up being multiple lessons)
+    - [Lesson 1](Express-Lesson-1.md)
+    - [Lesson 2](Express-Lesson-2.md)
   - Express Project
 - API's
 - Other topics that we need to make sure fit somewhere:
+  - CRUD
+  - module.exports/require vs ES6 import/export
+  - WTF is middleware
+  - callback pattern, req/res (request handlers)
   - logging
   - databases
   - Authentication
