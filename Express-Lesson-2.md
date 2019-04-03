@@ -4,5 +4,6 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoo
 
 Topics we might want to cover/supplement
 - MongoDB/Mongoose
+- Schemas/Models
 - ORMs
 - MVC (we learn about models here.. so discussing MVC might be appropriate)
