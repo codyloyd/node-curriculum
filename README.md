@@ -31,9 +31,9 @@ As new lessons are written I will link them up here in the readme so we can keep
   - WTF is middleware
   - callback pattern, req/res (request handlers)
   - logging
-  - databases
   - Authentication
   - Sessions
+  - TESTING
 
 ## Resources
 
