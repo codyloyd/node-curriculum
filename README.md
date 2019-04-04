@@ -19,14 +19,12 @@ As new lessons are written I will link them up here in the readme so we can keep
   - Express Tutorial (may end up being multiple lessons)
     - [Lesson 1](Express-Lesson-1.md)
     - [Lesson 2](Express-Lesson-2.md)
+    - [Project: Mini Message Board](Express-Mini-Message-Board.md)
     - [Lesson 3](Express-Lesson-3.md)
     - [Lesson 4](Express-Lesson-4.md)
   - Express Project
 - API's
 - Other topics that we need to make sure fit somewhere:
-  - Schema/Models
-  - CRUD
-  - MVC
   - module.exports/require vs ES6 import/export
   - logging
   - Authentication
