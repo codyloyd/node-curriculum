@@ -28,8 +28,6 @@ As new lessons are written I will link them up here in the readme so we can keep
   - CRUD
   - MVC
   - module.exports/require vs ES6 import/export
-  - WTF is middleware
-  - callback pattern, req/res (request handlers)
   - logging
   - Authentication
   - Sessions
