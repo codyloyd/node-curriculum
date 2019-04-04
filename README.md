@@ -22,8 +22,16 @@ As new lessons are written I will link them up here in the readme so we can keep
     - [Project: Mini Message Board](Express-Mini-Message-Board.md)
     - [Lesson 3](Express-Lesson-3.md)
     - [Lesson 4](Express-Lesson-4.md)
+    - [Lesson 5](Express-Lesson-5.md)
   - Express Project
-- API's
+      - Inventory App
+      - Student picks the store but whatever they pick it should have:
+        - Store departments with
+        - Items
+      - You can view Items by department, or a complete list of items
+- Authentication
+- Authentication project (members only from the Rails course)
+- APIs
 - Other topics that we need to make sure fit somewhere:
   - module.exports/require vs ES6 import/export
   - logging

@@ -1,9 +1,9 @@
-another biiig one.. this one is all about actually displaying the data from our DB
-reeeeeeeallly big.  damn. It's a marathon for sure lol.  makes you appreciate all the magical stuff that rails does for you
+This lesson is a fun one! In this one you'll be setting up several views, and you'll be able to start to see your Application come together. We'll finally get to see our data showing up in the browser!  This is a long lesson that is broken up into several sub-lessons so make sure you click through to see them all.
 
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data
+### Assignment
 
-topics:
-- asyncronous code and the async module
-- pug vs literally anythign else
-- this one isn't hard really.. it's just ridiculously long lol.
+<div class="lesson-content__panel" markdown="1">
+
+1. Lets get back to [the tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data)
+</div>
+
