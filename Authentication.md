@@ -14,7 +14,7 @@ npm install express express-session mongoose passport passport-local ejs
 
 Next let's create our `app.js`:
 
-**IMPORTANT NOTE**: For the moment we are saving our users with just a plain text password.  This is a _really_ bad idea for any real-world project. In the next lesson you will learn how to properly secure these passwords using bcrypt. Don't skip that part.
+**IMPORTANT NOTE**: For the moment we are saving our users with just a plain text password.  This is a _really_ bad idea for any real-world project. At the end of this lesson you will learn how to properly secure these passwords using bcrypt. Don't skip that part.
 
 ~~~javascript
 /////// app.js
@@ -246,4 +246,43 @@ app.get("/log-out", (req, res) => {
 ~~~
 
 You should now be able to visit `/sign-up` to create a new user, then log-in using that user's username and password, and then log out by clicking the log out button!
+
+### Securing passwords with bcrypt
+
+Now, lets go back and learn how to securely store user passwords so that if anything ever goes wrong, or if someone gains access to our database, our user passwords will be safe.  This is _insanely_ important, even for the simplest apps, but luckily it's also really simple to set up.
+
+First `npm install bcryptjs`. There is another module called `bcrypt` that does the same thing, but it is written in C++ and is sometimes a pain to get installed. The C++ `bcrypt` is technically faster, so in the future it might be worth getting it running, but for now the modules work the same so we can just use `bcryptjs`.
+
+Once it's installed you need to require it at the top of your app.js and then we are going to pput it to use where we save our passwords to the DB, and where we compare them inside the LocalStrategy.
+
+#### Storing hashed passwords:
+
+Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
+
+~~~javascript
+bcrypt.hash("somePassword", 10, (err, hashedPassword) => {
+  // if err, do something
+  // otherwise, store hashedPassword in DB
+})
+~~~
+
+The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a simple password, then go look at your DB entries to see how it's being stored.  If you've done it right your password should have been transformed into a really long random string.
+
+#### comparing hashed passwords:
+
+inside your `LocalStrategy` function we need to replace the `user.password !== password` bit with the `bcrypt.compare()` function.
+
+~~~javascript
+bcrypt.compare(password, user.password, (err, res)) {
+  if (res) {
+    // passwords match! log user in
+    return done(null, user)
+  } else {
+    // passwords do not match!
+    return done(null, false, {msg: "Incorrect password"})
+  }
+})
+~~~
+
+You should now be able to log in using the new user you've created (the one with a hashed password).  Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security! (and a good reason to include bcrypt from the start on your next project)
 
