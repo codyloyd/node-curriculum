@@ -23,12 +23,7 @@ As new lessons are written I will link them up here in the readme so we can keep
     - [Lesson 3](Express-Lesson-3.md)
     - [Lesson 4](Express-Lesson-4.md)
     - [Lesson 5](Express-Lesson-5.md)
-  - Express Project
-      - Inventory App
-      - Student picks the store but whatever they pick it should have:
-        - Store departments with
-        - Items
-      - You can view Items by department, or a complete list of items
+  - Express Project [Project: Inventory App](Express-Inventory-Application.md)
 - Authentication
 - Authentication project (members only from the Rails course)
 - APIs
