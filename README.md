@@ -25,8 +25,7 @@ As new lessons are written I will link them up here in the readme so we can keep
     - [Lesson 5](Express-Lesson-5.md)
   - Express Project [Project: Inventory App](Express-Inventory-Application.md)
 - Authentication [lesson](Authentication.md)
-- bcrypt [lesson](bcrypt.md)
-- Authentication project (members only from the Rails course)
+- Authentication project [Project](Members-Only.md) 
 - APIs
 - TESTING
 
