@@ -14,7 +14,7 @@ npm install express express-session mongoose passport passport-local ejs
 
 Next let's create our `app.js`:
 
-**IMPORTANT NOTE**: For the moment we are saving our users with just a plain text password.  This is a _really_ bad idea for any real-world project. At the end of this lesson you will learn how to properly secure these passwords using bcrypt. Don't skip that part.
+**IMPORTANT NOTE**: For the moment we are saving our users with just a plain text password.  This is a _really_ bad idea for any real-world project. In the next lesson you will learn how to properly secure these passwords using bcrypt. Don't skip that part.
 
 ~~~javascript
 /////// app.js
@@ -54,7 +54,7 @@ app.get("/", (req, res) => res.render("index"));
 app.listen(3000, () => console.log(`app listening on port 3000!`));
 ~~~
 
-Most of this should look familiar to you by now, except for the new imported middleware for express-session and passport.
+Most of this should look familiar to you by now, except for the new imported middleware for express-session and passport. We are not actually going to be useing express-session directly, it is a dependency that is used in the background by passport.js. You can take a look at what it does [here](https://github.com/expressjs/session).
 
 To keep things simple, our view engine is set up to just look in the main directory, and it's looking for a template called `index.ejs` so go ahead and create that:
 
