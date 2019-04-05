@@ -24,15 +24,11 @@ As new lessons are written I will link them up here in the readme so we can keep
     - [Lesson 4](Express-Lesson-4.md)
     - [Lesson 5](Express-Lesson-5.md)
   - Express Project [Project: Inventory App](Express-Inventory-Application.md)
-- Authentication
+- Authentication [lesson](Authentication.md)
+- bcrypt [lesson](bcrypt.md)
 - Authentication project (members only from the Rails course)
 - APIs
-- Other topics that we need to make sure fit somewhere:
-  - module.exports/require vs ES6 import/export
-  - logging
-  - Authentication
-  - Sessions
-  - TESTING
+- TESTING
 
 ## Resources
 
