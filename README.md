@@ -25,7 +25,7 @@ As new lessons are written I will link them up here in the readme so we can keep
     - [Lesson 5](Express-Lesson-5.md)
   - Express Project [Project: Inventory App](Express-Inventory-Application.md)
 - Authentication [lesson](Authentication.md)
-- Authentication project [Project](Members-Only.md) 
+- Authentication project [Project: Members Only](Members-Only.md) 
 - APIs
 - TESTING
 
