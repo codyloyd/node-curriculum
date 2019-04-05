@@ -16,7 +16,7 @@ As new lessons are written I will link them up here in the readme so we can keep
   - Getting Started Project - [lesson](Getting-Started-Project.md)
 - Express
   - Express Introduction [lesson](Express-Introduction.md)
-  - Express Tutorial (may end up being multiple lessons)
+  - Express Tutorial
     - [Lesson 1](Express-Lesson-1.md)
     - [Lesson 2](Express-Lesson-2.md)
     - [Project: Mini Message Board](Express-Mini-Message-Board.md)
