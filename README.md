@@ -27,6 +27,8 @@ As new lessons are written I will link them up here in the readme so we can keep
 - Authentication [lesson](Authentication.md)
 - Authentication project [Project: Members Only](Members-Only.md) 
 - APIs
+    - API lesson
+    - API Project (blog/CMS)
 - TESTING
 
 #### some topics we should cover _somewhere_
