@@ -1,4 +1,4 @@
-# TOP Node Course Working Repo.
+TOP Node Course Working Repo.
 
 this is the main repo containing the lessons that are being written for our shiny new backend javascript course.  Keeping it private on my own account for now to keep the fact that it's being written on the down-low.  For the moment I don't want to worry too much about the structure of the course as I am more focused on banging out the lessons as quickly as possible... that said I do have a basic outline in mind and intend to write the lessons more or less sequentially through that outline.
 
@@ -28,6 +28,16 @@ As new lessons are written I will link them up here in the readme so we can keep
 - Authentication project [Project: Members Only](Members-Only.md) 
 - APIs
 - TESTING
+
+#### some topics we should cover _somewhere_
+- nconf => sweet node plugin for setting up app configuration stuff
+    - https://github.com/indexzero/nconf
+- app.locals
+- dotenv (and environment variables in general)
+    - https://github.com/motdotla/dotenv#readme
+- https/helmet/deployment
+    - this stuff is covered in the MDN tutorial, but we should probably make sure it all gets covered clearly
+- OAuth
 
 ## Project ideas
 - basic info site
