@@ -24,10 +24,13 @@ As new lessons are written I will link them up here in the readme so we can keep
     - [Lesson 4](Express-Lesson-4.md)
     - [Lesson 5](Express-Lesson-5.md)
   - Express Project [Project: Inventory App](Express-Inventory-Application.md)
-- Authentication [lesson](Authentication.md)
-- Authentication project [Project: Members Only](Members-Only.md) 
+- Authentication
+  - Authentication [lesson](Authentication.md)
+  - Security Configuration [lesson](Security-Configuration.md)
+  - Authentication project [Project: Members Only](Members-Only.md) 
 - APIs
     - APIs [lesson](APIs.md)
+    - API Security [lesson](API-Security.md)
     - API Project [Project: Blog](Blog-Project.md)
 - TESTING
 
