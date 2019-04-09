@@ -47,7 +47,14 @@ This snippet is from the very first lesson in a tutorial that you'll be followin
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
- - Do stuff
+ - Describe the purpose of a server
+ - Describe the differences between static and dynamic sites
+ - Explain why you might need a backend for your project
+ - Explain when you don't need a backend for a project
+ - Explain the event loop
+ - Understand where the Nodejs runtime comes from
+ - Write a simple "hello world" application and run it in the console of your machine
+ - Understand what Nodejs really is
 
 ### Assignment
 
