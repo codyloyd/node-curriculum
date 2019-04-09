@@ -33,13 +33,10 @@ As new lessons are written I will link them up here in the readme so we can keep
     - API Security [lesson](API-Security.md)
     - API Project [Project: Blog](Blog-Project.md)
 - TESTING
+    - Testing routes/controllers [lesson](Testing.md)
 
 #### some topics we should cover _somewhere_
-- nconf => sweet node plugin for setting up app configuration stuff
-    - https://github.com/indexzero/nconf
 - app.locals
-- dotenv (and environment variables in general)
-    - https://github.com/motdotla/dotenv#readme
 - https/helmet/deployment
     - this stuff is covered in the MDN tutorial, but we should probably make sure it all gets covered clearly
 - OAuth

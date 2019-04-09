@@ -247,6 +247,21 @@ app.get("/log-out", (req, res) => {
 
 You should now be able to visit `/sign-up` to create a new user, then log-in using that user's username and password, and then log out by clicking the log out button!
 
+#### A quick tip
+
+In express you can set and access various local variables throughout your entire app (even in views) with the `locals` object. We can use this knowledge to write ourselves a custom middleware that will simplify how we access our current user in our views. 
+
+Middleware functions are simply functions that take the the `req` and `res` objects, manipulate them and pass them on through the rest of the app.
+
+~~~javascript
+router.use(function(req, res, next) {
+  res.locals.currentUser = req.user;
+  next();
+});
+~~~
+
+If you insert this code somewhere between where you instantiate the passport middleware and before you render your views, you'll will have access to the `currentUser` variable in all of your views, and you won't have to manually pass it into all of the controllers in which you need it.
+
 ### Securing passwords with bcrypt
 
 Now, lets go back and learn how to securely store user passwords so that if anything ever goes wrong, or if someone gains access to our database, our user passwords will be safe.  This is _insanely_ important, even for the simplest apps, but luckily it's also really simple to set up.
