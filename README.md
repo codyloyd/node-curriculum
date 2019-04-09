@@ -34,17 +34,9 @@ As new lessons are written I will link them up here in the readme so we can keep
     - API Project [Project: Blog](Blog-Project.md)
 - TESTING
     - Testing routes/controllers [lesson](Testing.md)
+- FINAL PROJECT BABY WOO
+    - Fake Ecommerce app! [Project: OdinStore](Odin-Store.md)
 
 #### some topics we should cover _somewhere_
-- app.locals
 - https/helmet/deployment
     - this stuff is covered in the MDN tutorial, but we should probably make sure it all gets covered clearly
-- OAuth
-
-## Project ideas
-- basic info site
-- blog
-- quiz/questionaire app (survey monkey clone)
-- note-taking app (evernote clone)
-- Backend for existing todo-list app
-- twitter or reddit clone
