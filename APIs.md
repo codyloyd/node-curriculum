@@ -34,5 +34,6 @@ For now it is acceptable to just allow access from any origin.. this makes devel
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read and code along with [this tutorial](https://www.robinwieruch.de/node-express-server-rest-api/) on setting up a REST API in Express.  REST is a concept that comes up quite a bit (seems like it would be a good interview question), so be sure to pay attention to that part of the article! This is one of the best Express tutorials we've come across, it also talks about modular code organization, writing middleware and links to some great extra info at the end.
+1. [This article](https://medium.com/@shubhangirajagrawal/the-7-restful-routes-a8e84201f206) is a good resource for organizing RESTful APIs.
+1. Read and code along with [this tutorial](https://www.robinwieruch.de/node-express-server-rest-api/) on setting up a REST API in Express. This is one of the best Express tutorials we've come across, it also talks about modular code organization, writing middleware and links to some great extra info at the end.
 </div>
